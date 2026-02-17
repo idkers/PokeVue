@@ -76,6 +76,7 @@ const inst = Vue.createApp({
             return parseFloat(((this.cantidadTipoActual / this.pokemones.length) * 100).toFixed(1));
         },
 
+        
         etiquetaProgreso(){
             if(this.tipoSeleccionado === 'Todos'){
                 return `${this.pokemones.length} / ${this.pokemones.length} Pokémon (100%)`;
